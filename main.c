@@ -5,7 +5,7 @@ int main()
 {
     int x,i,j,k;
     printf("Enter int from 0 to 32\n");
-//проверка введенного числа
+//checking if x in range
 do
  {
     scanf("%d", &x);
@@ -13,7 +13,7 @@ do
         printf("Retry:\n");
  }
     while (x < 0 || x > 32);
-//основной цикл постройки пирамиды
+//main pyramide cycle
 for (i = 0; i < x; i++)
  {
     for (j = (x - 1 - i); j > 0; j--)

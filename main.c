@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#define COUNT 32
 int main()
 {
     int ch,x,i,j,k;
-    printf("Enter int from 0 to 32\n");
+    printf("Enter int from 0 to COUNT\n", );
 //checking if x in range
 do
  {

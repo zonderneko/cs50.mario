@@ -4,7 +4,7 @@
 int main()
 {
     int x,i,j,k;
-    printf("Enter int from 0 to 32\n");
+    printf("Enter int from 1 to 32\n");
 //checking if x in range
 do
  {

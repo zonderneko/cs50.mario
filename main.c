@@ -14,7 +14,7 @@ do
         printf("Retry:\n");
  }
     while (x < 0 || x > 32 || ch != 1);
-//m
+//main pyramide cycle
 for (i = 0; i < x; i++)
  {
     for (j = (x - 1 - i); j > 0; j--)

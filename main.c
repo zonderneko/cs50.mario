@@ -17,7 +17,7 @@ do
 //main pyramide cycle
 for (i = 0; i < x; i++)
  {
-    for (j = (x - 1 - i); j > 0; j--)
+    for (j = (x - 1 - i); j > 0; j--) //spaces cycle
         printf(" ");
     printf("#");
     for (k = 0; k < i + 1; k++)

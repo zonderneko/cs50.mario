@@ -3,16 +3,17 @@
 
 int main()
 {
-    int x,i,j,k,l;
+    int ch,x,i,j,k,l;
     printf("Enter int from 1 to 32\n");
 //checking if x in range
 do
  {
-    scanf("%d", &x);
-    if (x < 1 || x > 32)
+    ch = scanf("%d", &x);
+    fflush(stdin);
+    if (x < 1 || x > 32 || ch != 1)
         printf("Retry:\n");
  }
-    while (x < 1 || x > 32);
+    while (x < 1 || x > 32 || ch != 1);
 //main pyramide cycle
 for (i = 0; i < x; i++)
  {

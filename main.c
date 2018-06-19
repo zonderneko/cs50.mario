@@ -4,13 +4,13 @@
 int main()
 {
     int ch,x,i,j,k;
-    printf("Enter int from 0 to COUNT\n", );
+    printf("Enter int from 0 to %d\n", COUNT);
 //checking if x in range
 do
  {
     ch = scanf("%d", &x);
     fflush(stdin);
-    if (x < 0 || x > 32 || ch != 1)
+    if (x < 0 || x > COUNT || ch != 1)
         printf("Retry:\n");
  }
     while (x < 0 || x > 32 || ch != 1);

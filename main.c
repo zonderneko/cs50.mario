@@ -9,10 +9,10 @@ int main()
 do
  {
     scanf("%d", &x);
-    if (x < 0 || x > 32)
+    if (x < 1 || x > 32)
         printf("Retry:\n");
  }
-    while (x < 0 || x > 32);
+    while (x < 1 || x > 32);
 //main pyramide cycle
 for (i = 0; i < x; i++)
  {
